@@ -1,0 +1,42 @@
+FutureWarning: is_connected has been changed to a property. Calling it as an async method will be removed in a future version
+  x = await client.is_connected()
+Connected: True
+[Service] 00001800-0000-1000-8000-00805f9b34fb: Generic Access Profile
+Device Name - 00002a00-0000-1000-8000-00805f9b34fb -> b'BBC micro:bit [zugeg]'
+        [Characteristic] 00002a00-0000-1000-8000-00805f9b34fb: (read) | Name: Device Name, Value: b'BBC micro:bit [zugeg]' 
+Appearance - 00002a01-0000-1000-8000-00805f9b34fb -> b'\x00\x00'
+        [Characteristic] 00002a01-0000-1000-8000-00805f9b34fb: (read) | Name: Appearance, Value: b'\x00\x00' 
+Peripheral Preferred Connection Parameters - 00002a04-0000-1000-8000-00805f9b34fb -> b'\x08\x00\x10\x00\x00\x00\x90\x01'
+        [Characteristic] 00002a04-0000-1000-8000-00805f9b34fb: (read) | Name: Peripheral Preferred Connection Parameters, Value: b'\x08\x00\x10\x00\x00\x00\x90\x01' 
+Central Address Resolution - 00002aa6-0000-1000-8000-00805f9b34fb -> b'\x01'
+        [Characteristic] 00002aa6-0000-1000-8000-00805f9b34fb: (read) | Name: Central Address Resolution, Value: b'\x01' 
+[Service] 00001801-0000-1000-8000-00805f9b34fb: Generic Attribute Profile
+EXCEPTION:<function format_exception at 0x000001E8B99A0820>
+        [Characteristic] 00002a05-0000-1000-8000-00805f9b34fb: (indicate) | Name: Service Changed, Value: None 
+                [Descriptor] 00002902-0000-1000-8000-00805f9b34fb: (Handle: 13) | Value: b'\x02\x00' 
+[Service] 0000fe59-0000-1000-8000-00805f9b34fb: Nordic Semiconductor ASA
+        [Characteristic] 8ec90004-f315-4f60-9fb8-838830daea50: (write,indicate) | Name: Secure Buttonless DFU, Value: None 
+                [Descriptor] 00002902-0000-1000-8000-00805f9b34fb: (Handle: 17) | Value: b'\x00\x00' 
+[Service] e97dd91d-251d-470a-a062-fa1922dfa9a8: Unknown
+EXCEPTION:<function format_exception at 0x000001E8B99A0820>
+        [Characteristic] e97d3b10-251d-470a-a062-fa1922dfa9a8: (write-without-response,notify) | Name: Unknown, Value: None 
+                [Descriptor] 00002902-0000-1000-8000-00805f9b34fb: (Handle: 21) | Value: b'\x00\x00' 
+[Service] 0000180a-0000-1000-8000-00805f9b34fb: Device Information
+Model Number String - 00002a24-0000-1000-8000-00805f9b34fb -> b'BBC micro:bit V2'
+        [Characteristic] 00002a24-0000-1000-8000-00805f9b34fb: (read) | Name: Model Number String, Value: b'BBC micro:bit V2' 
+Serial Number String - 00002a25-0000-1000-8000-00805f9b34fb -> b'9243561797132701545'
+        [Characteristic] 00002a25-0000-1000-8000-00805f9b34fb: (read) | Name: Serial Number String, Value: b'9243561797132701545' 
+Firmware Revision String - 00002a26-0000-1000-8000-00805f9b34fb -> b'unknown'
+        [Characteristic] 00002a26-0000-1000-8000-00805f9b34fb: (read) | Name: Firmware Revision String, Value: b'unknown' 
+[Service] e95d93af-251d-470a-a062-fa1922dfa9a8: MicroBit Event Service
+EXCEPTION:<function format_exception at 0x000001E8B99A0820>
+        [Characteristic] e95d9775-251d-470a-a062-fa1922dfa9a8: (read,notify) | Name: MicroBit Event Data, Value: b'Could not read characteristic handle 30: Protocol Error 0x05: Insufficient Authentication'
+                [Descriptor] 00002902-0000-1000-8000-00805f9b34fb: (Handle: 32) | Value: b'\x00\x00' 
+EXCEPTION:<function format_exception at 0x000001E8B99A0820>
+        [Characteristic] e95d5404-251d-470a-a062-fa1922dfa9a8: (write-without-response,write) | Name: MicroBit Client Events, Value: None 
+EXCEPTION:<function format_exception at 0x000001E8B99A0820>
+        [Characteristic] e95d23c4-251d-470a-a062-fa1922dfa9a8: (write) | Name: MicroBit Client Requirements, Value: None 
+EXCEPTION:<function format_exception at 0x000001E8B99A0820>
+        [Characteristic] e95db84c-251d-470a-a062-fa1922dfa9a8: (read,notify) | Name: MicroBit Requirements, Value: b'Could not read characteristic handle 37: Protocol Error 0x05: Insufficient Authentication'
+                [Descriptor] 00002902-0000-1000-8000-00805f9b34fb: (Handle: 39) | Value: b'\x00\x00' 
+disconnecting
